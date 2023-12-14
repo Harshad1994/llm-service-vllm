@@ -1,3 +1,11 @@
+'''
+Author: Harshad Kunjir
+Email: harshadkunjir@gmail.com
+Linkedin: https://www.linkedin.com/in/harshad1994/
+License: Apache 2.0
+'''
+
+
 from fastapi import Depends,HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel
