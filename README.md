@@ -24,6 +24,12 @@ To RUN Llama-2-70b-hf   using awq quantization
 python main.py --model TheBloke/Llama-2-70B-chat-AWQ --tensor-parallel-size 4 --download-dir /datadisk/llms/model_dir --gpu-memory-utilization 0.6 --quantization awq
 ```
 
+To RUN Llama-3-8b-hf
+```
+python main.py --model meta-llama/Llama-3-8b-hf --tensor-parallel-size 4 --download-dir /datadisk/harshad/download_dir --gpu-memory-utilization 0.6
+
+```
+
 arguments
 ```
 --model ---> Model name from huggingface
